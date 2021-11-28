@@ -1,9 +1,9 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 5;
+const images = ["img_1.jpg", "img_2.jpg", "img_3.jpg", "img_4.jpg", "img_5.jpg", "img_6.jpg", "img_7.jpg",];
 
 function genRandom() {
-    const number =  Math.ceil(Math.random() * IMG_NUMBER);
+    const number =  Math.ceil(Math.random() * images.length);
     return number
 }
 

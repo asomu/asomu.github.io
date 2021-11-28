@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div>
+        <span class="js-weather"></span>
+    </div>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
     <section class="center">
         <div class="js-clock">
-            <h1>00:00</h1>
+            <label>00:00</label>
         </div>
         <div>
             <form class="js-form form">
                 <input type="text" placeholder="What is your name?">
             </form>
         </div>
-    </section>
-    
-    <h4 class="js-greetings greetings center"></h4>
+    </section>   
+    <lable class="js-greetings center"></lable>
     <form class="js-toDoForm center">
         <input type="text" placeholder="Write a to Do">
     </form>
     
     <div>
-        <ul class="js-toDoList center"></ul>
-    </div>
-    
-    <div>
-        <span class="js-weather center"></span>
+        <ul class="js-toDoList"></ul>
     </div>
 
     <script src="./js/clock.js"></script>
@@ -36,5 +38,6 @@
     <script src="./js/todo.js"></script>
     <script src="./js/bg.js"></script>
     <script src="./js/weather.js"></script>
+    <script src="./js/quote.js"></script>
 </body>
 </html>
